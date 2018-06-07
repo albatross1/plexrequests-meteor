@@ -49,8 +49,8 @@
 - name: Deploy PlexRequests Container
   docker_container:
     name: PlexRequests
-    ## image: linuxserver/plexrequests
-    image: linuxserver/plexrequests
+    ## image: lokenx/plexrequests-meteor
+    image: lokenx/plexrequests-meteor
     pull: yes
     cpu_shares: 128
     published_ports:
